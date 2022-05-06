@@ -1,17 +1,17 @@
-name: ""
+name: "Bug Website"
 navbar:
-  title: ""
-  subtitle:
-  Date: ""
+  title: "Bug time"
+  subtitle: Don't forget the bugs
+  Date: "06/05/2022"
   left:
-  - text: ""
+  - text: "Home"
     href: index.html
-  - text: ""
-    href: 
+  - text: "About me"
+    href: aboutme.html
   right: 
   - icon: fa-github
-    text: 
-    href: 
+    text: Bug of the week
+    href: https://github.com/bugoftheweek 
       
 output:
   html_document:

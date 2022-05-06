@@ -1,9 +1,35 @@
 ---
-title: "index"
-author: ""
-date: ""
+title: "This is my website :)"
+author: "Emmet Mulcahy"
+date: "06/05/2022"
 output: html_document
 knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, encoding = encoding, output_dir = "../docs") })
 ---
-Here is your template for making a RMakrdown webpage. You can just delete this and make a new one.
+
+
+
+## Bugs {.tabset .tabset-fade .tabset-pills}
+
+### Beetles {.tabset .tabset-fade .tabset-pills}
+![](../images/beetle.jpeg)
+There are lots of beetles
+
+#### Brown beetles 
+Some beetles are brown
+
+#### Blue beetles 
+Some beetles are blue
+
+### Bees {.tabset .tabset-fade .tabset-pills}
+![](../images/bee.jpeg)
+Bees make honey
+
+#### Big bees  
+Bumblebee
+
+#### Nasty bees
+Sting you
+
+
+
